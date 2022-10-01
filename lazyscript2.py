@@ -150,16 +150,15 @@ print("\n\n\n\n")
 
 print(colored('1)Anonymize','red'),colored('\t\t\t2)Pinger','red'))
 
-print(colored('3)Mail spammer','red'),colored('\t\t\t4)Temp-Mail','red'))
+print(colored('3)Mail spammer','red'),colored('\t\t\t4)SMS-spammer','red'))
 
-print(colored('5)SMS spammer','red'),colored('\t\t\t6)Wireless Attack','red'))
+print(colored('5)CALL spammer','red'),colored('\t\t\t6)Social-Phishing','red'))
 
-print(colored('7)Call spammer','red'),colored('\t\t\t8)Social-Phishing','red'))
+print(colored('7)WP-Scanner','red'),colored('\t\t\t8)Camera-Phishing','red'))
 
-print(colored('9)Windows Payload','red'),colored('\t\t10)Android Payload','red'))
+print(colored('9)NMAP-Scanner','red'))
 
-print(colored('11)Wp-Scan','red'),colored('\t\t\t12)Nmap Scanner','red'))
-print(colored("13)Camera Phishing","red"))
+
 
 print("\n\n99)exit\n\n")
 
@@ -178,23 +177,23 @@ if choice ==3:
  spam1()
   
 
-if choice == 5:
+if choice == 4:
  spam1()
  
-if choice == 7:
+if choice == 5:
  spam1()
 
-if choice == 12:
+if choice == 9:
  nps()
 
 
-if choice == 11:
+if choice == 7:
  wps()
 
-if choice == 8:
+if choice == 6:
  sp()
 
-if choice == 13:
+if choice == 8:
  cp()
 
 if choice == 99:
